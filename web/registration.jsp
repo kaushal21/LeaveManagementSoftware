@@ -72,7 +72,7 @@
             }
             String sql = "insert into staff_r(sid,name,dept,desg,qual,email,addr,phone,uname,pwd,m_cnt,c_cnt) "
                     + "values("+sid+",'"+name+"','"+department+"','"+designation+"','"+qualification+"','"
-                    +email+"','"+address+"',"+phone+",'"+username+"','"+password+"',30,30)";
+                    +email+"','"+address+"','"+phone+"','"+username+"','"+password+"',30,30)";
             String sql2 = "insert into login_s values('"+username+"','"+password+"')";
             if ( t == 0 )
             {

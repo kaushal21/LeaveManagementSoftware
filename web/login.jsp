@@ -22,7 +22,6 @@
         Class.forName("com.mysql.jdbc.Driver");
         Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/leave_management",
                 "root", "kaushal08");
-        t = 99;
         Statement st = con.createStatement();
         ResultSet rs = st.executeQuery("select * from admin");
         while ( rs.next() )

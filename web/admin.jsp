@@ -88,7 +88,7 @@
             </ul>
         </div>
     </div>
-    <div>
+    <div align="center">
         <table>
             <tr>
                 <td>
@@ -99,11 +99,6 @@
                 <td>
                     <a href="view_staff.jsp">
                         <button class="button">View Staff</button>
-                    </a>
-                </td>
-                <td>
-                    <a href="edit_leave_app.jsp">
-                        <button class="button">Edit Leave Application</button>
                     </a>
                 </td>
                 <td>

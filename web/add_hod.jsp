@@ -69,7 +69,7 @@
                 }
                 String sql = "insert into login_h(name,dept,desg,qual,email,addr,phone,uname,pwd) "
                         + "values('"+name+"','"+department+"','Head of Department','"+qualification+"','"
-                        +email+"','"+address+"',"+phone+",'"+username+"','"+password+"')";
+                        +email+"','"+address+"','"+phone+"','"+username+"','"+password+"')";
                 if ( t == 0 ) {
                     st.executeUpdate(sql);
                     t = 101 ;

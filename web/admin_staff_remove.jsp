@@ -108,7 +108,7 @@
     <div align="center">
         <div class="border">
             <h2 align="center">
-                HOD's Details
+                Staff's Details
             </h2>
             <table>
     <%
