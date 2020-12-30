@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Staff Deleted</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+         body{
+            background-image: url("WebContent/static/images/dp.jpg");
+            background-size: cover;
+        }
+        td {
+            padding-left: 10px;
+            padding-bottom: 5px;
+            font-family: serif;
+            font-size: 18px;
+        }
+        .buttons {
+            padding-left: 100px;
+        }
+        .sry{
+            font-size: 20px;
+            font-family: cursive;
+            color: white;
+        }
+    </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        function disableBack() { window.history.forward() }
+        window.onload = disableBack();
+        window.onpageshow = function(evt) { if (evt.persisted) disableBack() }
+    });
+    </script>
+</head>
+<body>
+    <div align="center" style="color: white; font-size: 22px;">
+        Staff Have Been Deleted
+        <br><br>
+        <table>
+            <tr>
+                <td style="padding-left: 100px;">
+                    <a href="admin.jsp">
+                        <img src="WebContent/static/images/home_page.jpg" style="width: 75px; height: 75px; background: transparent; border: none;">
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

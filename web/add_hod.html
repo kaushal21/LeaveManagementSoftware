@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add HOD</title>
+    <style>
+        body{
+            background-image: url("WebContent/static/images/dp.jpg");
+            background-size: cover;
+        }
+        .border {
+            color: white ;
+            font-size: 17px;
+            border-style: solid ;
+            border-color: darkgrey ;
+            border-radius: 1.5%;
+            width: 350px ;
+        }
+        tr,td {
+            padding-bottom: 5px;
+            padding-top: 5px;
+        }
+        a {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <br><br><br><br>
+    <div align="center">
+        <div class="border">
+            <h2>Add HOD</h2>
+            <form action="add_hod.jsp" method="post">
+                <table>
+                    <tr>
+                        <td>Name</td>
+                        <td><input type="text" name="name" required></td>
+                    </tr>
+                    <tr>
+                        <td>Department</td>
+                        <td>
+                            <select id="department" name="department" required>
+                                <option value="Computer">Computer</option>
+                                <option value="Mechanical">Mechanical</option>
+                                <option value="Civil">Civil</option>
+                                <option value="It">I.T.</option>
+                                <option value="Entc">E&TC</option>
+                                <option value="Electrical">Electrical</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Username</td>
+                        <td><input type="text" name="username" required></td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td><input type="password" name="password" required></td>
+                    </tr>
+                    <tr>
+                        <td>E-mail</td>
+                        <td><input type="email" name="email" required></td>
+                    </tr>
+                    <tr>
+                        <td>Phone</td>
+                        <td><input type="tel" name="phone" maxlength="10"></td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td><input type="text" name="addr" required></td>
+                    </tr>
+                    <tr>
+                        <td>Qualification</td>
+                        <td>
+                            <select id="qual" name="qual" required>
+                                <option value="BE">B.E.</option>
+                                <option value="ME">M.E.</option>
+                                <option value="Phd">Phd</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+                <div style="padding-bottom: 5px; padding-top: 20px;">
+                <input type="submit" value="Sign Up">
+                </div>
+            </form>
+            <h4>
+                Go To Root Page<br>
+                <a href="admin.jsp">
+                    Click Here
+                </a>
+            </h4>
+        </div>
+    </div>
+</body>
+</html>

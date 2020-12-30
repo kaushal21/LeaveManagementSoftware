@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leave Management</title>
+    <link rel="stylesheet" href="WebContent/static/style.css">
+    <script>
+        window.location.hash="no-back-button";
+        window.location.hash="Again-No-back-button";//again because google chrome don't insert first hash into history
+        window.onhashchange=function(){window.location.hash="no-back-button";}
+    </script>
+</head>
+<body>
+    <br><br><br><br>
+    <div align="center">
+        <div class="border">
+            <div style="width: fit-content; font-size: 25px; color: #3162C4;  font-family:monospace;">
+            <h2>Log In</h2>
+            </div>
+            <div class="txt">
+                <form action="login.jsp" method="post">
+                    <div class="uname">
+                    <table>
+                        <tr>
+                            <td><input id="username" type="text" placeholder="Username" name="uname" required></td>
+                        </tr>
+                        <tr>
+                            <td><input id="password" type="password" placeholder="Password" name="pwd" required></td>
+                        </tr>
+                    </table>
+                    </div>
+                    <div style="padding-bottom: 5px; padding-top: 20px;">
+                        <input id="login" type="submit" class="button" name="Login" value="Login" style="font-size: 22px; vertical-align:middle">
+                    </div>
+                </form>
+                <h4>
+                    Don't Have An Account?<br>
+                <a href="signup.html">
+                    Sign-Up
+                </a>
+                </h4>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
