@@ -7,14 +7,12 @@ This helps the staff members to easily apply for leaves and keep track of their 
 It also helps the head of department by letting him react to the leave applied by the staff members in his/her department.
 
 ## Problem Description
-***
 In my college we found that for applying the professors had only two options which were either by mail or by a written application.
 In both of these options it was very hard to keep track of the number of leave applied. Also, which of them were granted and which were rejected.
 This is where this software comes in the picture, it gives a platform for the professors to keep track of their leaves.
 It smoothens the process of leave application for them and also the granting option for their head of department.
 
 ## Functionality and Features
-***
 Basically there are 3 major actors in the picture which are:
 
 * Admin
@@ -47,7 +45,6 @@ The applied leaves directly goes to their respective head of department for the 
 Only on the approval their leave count is changes, otherwise it is left untouched.
 
 ## Screenshots of Working Project
-***
 ### Login Page
 ***
 ![Login Page](assets/leaveManagementSoftwareLoginPage.png)
@@ -125,7 +122,6 @@ After granting the leave to the staff member, we can check that the count for nu
 
 
 ## Database Design
-***
 I have used MySQL for this project. Although, the implementation was not the most perfect one, the database design deosnt colide with itself and functions properly.
 There is scope to improve the database design, but for this project we went with a simple and basic approach.
 There are in total 6 tables for this project. I have described them below:
@@ -202,7 +198,6 @@ There are in total 6 tables for this project. I have described them below:
   |status       | varchar   | 120    |     |
 
 ## File Structure and Flow of Events
-***
 There are a total of 23 jsp files and 4 html file. 
 It can be hard to figure out which file is called when and to keep a track of files.
 That's why I have added a diagram of the flow the files which is followed by this project.
